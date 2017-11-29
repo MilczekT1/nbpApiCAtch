@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nbp.iml" filepath="$PROJECT_DIR$/.idea/modules/nbp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nbp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nbp_main.iml" group="nbp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nbp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nbp_test.iml" group="nbp" />
+    </modules>
+  </component>
+</project>
