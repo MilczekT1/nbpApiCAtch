@@ -29,7 +29,7 @@ public class Console {
     
         console.printSimpleTutorial();
         while(true){
-            System.out.print("Input data:");
+            console.printMessage("Input data:");
             typedInput = scanner.nextLine().split(" ");
             typedInput[0] = typedInput[0].toUpperCase();
             if (console.isCorrectInput(typedInput)){
