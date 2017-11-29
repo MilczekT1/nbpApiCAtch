@@ -10,6 +10,12 @@ import java.util.regex.Pattern;
 
 import static java.time.temporal.ChronoUnit.DAYS;
 
+/**
+ *     Dla rekrutera: zostaje wyswietlona instrukcja jak wpisać dane. Dane przechodzą prostą walidację (np czy roznica w dniach nie przekracza 93) po czym zostaje wyslane zapytanie korzystające z API NBP.
+ *     Program pobiera dane w formacie JSON i przetwarza je uzyskując średnią cenę kupna i odchylenie standardowe kursu sprzedaży.Kursy są obliczane przy pomocy klasy BigDecimal
+ *
+ */
+
 public class Console {
     
     private static Request request;

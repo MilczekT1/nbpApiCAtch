@@ -29,6 +29,7 @@ public class NbpApiHandler {
             @Cleanup
             BufferedReader reader = new BufferedReader(
                     new InputStreamReader(httpURLConnection.getInputStream()));
+            
             String line;
             StringBuilder stringBuilder = new StringBuilder();
             while ((line = reader.readLine()) != null){
